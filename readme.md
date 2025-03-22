@@ -104,6 +104,3 @@ alembic upgrade head
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributors
-- [Your Name](https://github.com/yourusername)
