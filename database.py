@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load the database URL from environment variables
-database_url = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./touch.db")
+database_url = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./store_database.db")
 
 # Create the database engine
 engine = create_async_engine(database_url, connect_args={"check_same_thread": False})
